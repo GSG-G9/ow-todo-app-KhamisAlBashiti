@@ -26,7 +26,13 @@ const TodoInput = () => {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <TextField type="text" id="task" placeholder='Create a new todo...' value={task} onChange={handleChange} />
+      <TextField
+        type="text"
+        id="task"
+        placeholder="Create a new todo..."
+        value={task}
+        onChange={handleChange}
+      />
     </form>
   );
 };

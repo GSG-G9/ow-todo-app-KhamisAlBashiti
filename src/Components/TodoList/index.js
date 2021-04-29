@@ -12,7 +12,7 @@ const TodoList = () => {
   return (
     <List>
       {tasks.map((task) => (
-        <ListItem key={task.id}  className={classes.root}>
+        <ListItem key={task.id} className={classes.root}>
           <ListItemText primary={task.name} />
         </ListItem>
       ))}
